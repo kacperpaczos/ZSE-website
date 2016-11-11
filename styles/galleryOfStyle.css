@@ -1,0 +1,88 @@
+.small-card-image.mdl-card {
+    width: auto;
+    height: 320px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url('../images/nophoto.jpg') center / cover;
+}
+.median-card-image.mdl-card {
+    width: auto;
+    height: 360px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url('../images/nophoto.jpg') center / cover;
+}
+.big-card-image.mdl-card {
+    width: auto;
+    height: 400px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url('../images/nophoto.jpg') center / cover;
+}
+.mdl-card__actions {
+    height: 52px;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.2);
+}
+.card-image__description {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.photo-card-square.mdl-card {
+    width: 100px;
+    height: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.photo-card-square > .mdl-card__title {
+    
+}
+.photo-card-square > .mdl-card__supporting-text {
+    
+}
+#hide {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/*p {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+h2 {
+    padding-left: 32px;
+    padding-right: 32px;
+}*/
+#photocointainer
+{
+    z-index: 100;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    background:  url('../images/nophoto.jpg') center / cover;
+}
+#photobg
+{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 90;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    opacity: 0;
+}

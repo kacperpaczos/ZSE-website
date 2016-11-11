@@ -1,0 +1,50 @@
+strona główna
+	- aktualnosci -blog
+	- galeria - pokoje, wychwacy
+	- informacje - zaakwaterowanie, wyzywienie, oferta - opis położenia i tego co jest kompy stołóka pokoje
+	- kontakt
+	- MRI - zdjecie, opis, pania hania, 
+	- 
+
+
+informacje - opis internatu, zaakwaterowane, koszt, MRI (osobna podstrona)
+galeria - pkoje, kompy, stołówka, wychowacy, mri,
+aktualnosci - opis bieżacych wydarzeń i imprez - zdjecia itd cos jak blog
+
+zrobic jeden plik js usystematyzowac css, zrobic usystematyzowane zanczniki dla artykułów, wypełnic trescia, zdjeciami, obrazkami blender
+
+
+ - usunąc js z pyament
+ - ulepszyc tam tych wychowawców
+ - wypełnic trescia płatnosc nabór mri kontkat
+ - sprawdzic otografie i teksty na konec
+ - archiwum
+ - blog
+ - jak jeszcze mozna ulepszyc grafiki i internat na top zamiast windowsa
+ - dodac do blend wszystkie kolory mdl odcieniami
+ - refaktoryzacja kodu zeby wstydu nie było
+ - dodac pliki blend oba!
+ - grafika dla copyright
+ - licencja źródła
+ - napisa program wstawiający &nbsp;
+ zroić tak by sie głwna karty nie rozjerza ły a 4k
+ <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/android-desktop.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->

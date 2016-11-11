@@ -1,0 +1,36 @@
+.small-information-card-square.mdl-card {
+    width: auto;
+    height: 360px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.small-information-card-square > .mdl-card__title {
+    color: #fff;
+    background:  url('../images/nophoto.jpg') bottom right 15% no-repeat #46B6AC;
+}
+.median-information-card-square.mdl-card {
+    width: auto;
+    height: 480px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.median-information-card-square > .mdl-card__title {
+    color: #fff;
+    background:  url('../images/nophoto.jpg') bottom right 15% no-repeat #46B6AC;
+}
+.big-information-card-square.mdl-card {
+    width: auto;
+    height: 560px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.big-information-card-square > .mdl-card__title {
+    color: #fff;
+    background:  url('../images/nophoto.jpg') bottom right 15% no-repeat #46B6AC;
+}

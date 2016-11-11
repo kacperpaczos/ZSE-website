@@ -1,0 +1,254 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Internat - Zespoł Szkół Elektronicznych">
+        <meta name="keywords" content="ZSE, Zespół, Szkół, Elektronicznych, Bydgoszcz, Internat" />
+        <meta name="author" content="Internat - Zespoł Szkół Elektronicznych">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+        <title>Internat ZSE</title>
+
+        <link rel="stylesheet" href="./styles/mdl/material.blue-red.min.css" /> 
+        <link rel="stylesheet" href="./styles/mainStyle.css">
+        <link rel="stylesheet" href="./styles/indexOfStyle.css">
+
+        <script src="./scripts/jquery-1.12.4.min.js"></script>
+        <script src="./scripts/mainScripts.js"></script>
+        <script src="./scripts/scriptsOfIndex.js"></script>
+        <script src="./scripts/mdl/material.min.js"></script>
+  </head>
+	<body>
+        <div id="loading">
+        </div>
+        <div id="content" class="mdl-layout mdl-js-layout mdl-layout--fixed-header" style="display:none">
+          <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row zse-navigation-height">
+              <!-- Title -->
+              <span class="mdl-layout--large-screen-only mdl-layout-title mdl-typography--text-uppercase">
+                ZSE - Internat
+              </span>
+              <div class="mdl-layout-spacer"></div>
+              <nav class="mdl-navigation mdl-layout--large-screen-only">
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="index.html">Strona główna</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="rules.html">Regulamin</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="recruitment.html">Nabór</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="payment.html">Płatność</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="contact.html">Kontakt</a>
+                  
+                <button class="zse-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+                    <i class="material-icons">more_vert</i>
+                </button>
+                <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+                  <li onclick="location.href='information.html';" class="mdl-menu__item">Informacje</li>
+                  <li onclick="location.href='news.html';" class="mdl-menu__item">Aktualności</li>
+                  <li onclick="location.href='gallery.html';" class="mdl-menu__item">Galeria</li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+          <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">
+                <img class="zse-logo-image" src="images/zse-logo.png" alt="Internat ZSE">
+            </span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="index.html">Strona główna</a>
+                <a class="mdl-navigation__link" href="rules.html">Regulamin</a>
+                <a class="mdl-navigation__link" href="recruitment.html">Nabór</a>
+                <a class="mdl-navigation__link" href="payment.html">Płatność</a>
+                <a class="mdl-navigation__link" href="contact.html">Kontkat</a>
+                <div class="zse-drawer-separator"></div>
+                <a class="mdl-navigation__link" href="information.html">Informacje</a>
+                <a class="mdl-navigation__link" href="news.html">Aktualności</a>
+                <a class="mdl-navigation__link" href="gallery.html">Galeria</a>
+            </nav>
+          </div>
+          <main class="mdl-layout__content">
+            <div class="page-content">
+                <div class="zse-image">
+                </div>
+                    <p class="mdl-typography--display-2 mdl-typography--text-center mdl-typography--text-uppercase mdl-color-text--grey-100 mdl-color--blue-600" style="padding-top: 14px; padding-bottom: 14px; margin: 0 0;">
+                        Internat
+                    </p>
+                    <p class="mdl-typography--headline mdl-typography--text-center mdl-color-text--grey-100 mdl-color--blue-600" style="padding-top: 14px; padding-bottom: 14px; margin: 0 0;">
+                        Zespołu Szół Elektronicznych w&nbsp;Bydgoszczy
+                    </p>
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--1-col-desktop mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
+                    <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+                        <div class="news-card-square mdl-card mdl-shadow--2dp">
+                          <div onclick="location.href='information.html';" class="mdl-card__title mdl-card--expand" style="background: url('./images/information.jpg') center / cover">
+                            <h2 class="mdl-card__title-text">Informacje</h2>
+                          </div>
+                          <div class="mdl-card__supporting-text">
+                            Wszystkie potrzebne informacje dla zaintersowanych 
+                            zamiekszkaniem <br>w internacie Zespołu Szkół Elektronicznych.
+                          </div>
+                          <div class="mdl-card__actions mdl-card--border">
+                            <a href="information.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                              Zobacz
+                            </a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+                        <div class="news-card-square mdl-card mdl-shadow--2dp">
+                          <div onclick="location.href='news.html';" class="mdl-card__title mdl-card--expand" style="background: url('./images/news.jpg') center / cover">
+                            <h2 class="mdl-card__title-text">Aktualności</h2>
+                          </div>
+                          <div class="mdl-card__supporting-text">
+                            Chcesz wiedzieć co ostatnio wydarzyło się w internacie? Wszyskie nowości zobaczysz na naszym blogu.
+                          </div>
+                          <div class="mdl-card__actions mdl-card--border">
+                            <a href="news.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                              Zobacz
+                            </a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+                        <div class="news-card-square mdl-card mdl-shadow--2dp">
+                          <div onclick="location.href='gallery.html';" class="mdl-card__title mdl-card--expand" style="background: url('./images/gallery.jpg') center / cover">
+                            <h2 class="mdl-card__title-text">Galeria</h2>
+                          </div>
+                          <div class="mdl-card__supporting-text">
+                            Ciekawi cię jak wygląda nasza stołówka, pokoje czy siłownia? Zdjęcia internatu, pokoi czy sali komputerowej oraz z imprez znajdziesz tutaj. Odwiedź naszą galerię i zobacz.
+                          </div>
+                          <div class="mdl-card__actions mdl-card--border">
+                            <a href="gallery.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                              Zobacz
+                            </a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--1-col-desktop mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
+                </div>
+                <div class='embed-container maps'>
+                    <iframe width="640" height="480" frameborder='0' src="https://www.google.com/maps/d/u/0/embed?mid=1ialQ7jK76zfFhevYeA7zPkYOWzA">  </iframe>
+                </div>
+                <p class="mdl-typography--display-2 mdl-typography--text-center mdl-typography--text-uppercase mdl-color-text--grey-100 mdl-color--blue-grey-700" style="padding-top: 14px; padding-bottom: 14px; margin: 0 0;">
+                    Dogodne położenie
+                </p>
+                <p class="mdl-typography--headline mdl-typography--text-center mdl-color--blue-grey-700 mdl-color-text--grey-100" style="padding-top: 14px; padding-bottom: 14px; margin: 0 0;">
+                    Nasz internat mieści się dogodnej lokalizacji, w&nbsp;centrum&nbsp;miasta (przy&nbsp;dworcu&nbsp;PKS),
+                    <br>dzięki&nbsp;czemu&nbsp;bez&nbsp;problemu dojedziesz do wybranej przez Ciebie szkoły.
+                    <br><br>
+                    <a href="https://www.google.pl/maps/place/Internat+Zespo%C5%82u+Szk%C3%B3%C5%82+Elektronicznych/@53.1234331,18.0202819,16z/data=!4m5!3m4!1s0x470313928ce0a3a9:0x7c696037bfefa38!8m2!3d53.1234331!4d18.0246593">
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                            ZOBACZ W MAPACH GOOGLE
+                        </button>
+                    </a>
+                </p>
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--1-col-desktop mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
+                    <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+                        <div class="news-card-square mdl-card mdl-shadow--2dp">
+                          <div onclick="location.href='recruitment.html';" class="mdl-card__title mdl-card--expand" style="background: url('./images/recruitment.jpg') center / cover">
+                            <h2 class="mdl-card__title-text">Nabór</h2>
+                          </div>
+                          <div class="mdl-card__supporting-text">
+                            Chcesz u nas zamieszkać? Zajrzyj tutaj.
+                          </div>
+                          <div class="mdl-card__actions mdl-card--border">
+                            <a href="recruitment.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                              Czytaj
+                            </a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+                        <div class="news-card-square mdl-card mdl-shadow--2dp">
+                          <div onclick="location.href='rules.html';" class="mdl-card__title mdl-card--expand" style="background: url('./images/rules.jpg') center / cover">
+                            <h2 class="mdl-card__title-text">Regulamin</h2>
+                          </div>
+                          <div class="mdl-card__supporting-text">
+                            Zasady dotyczące przebywania w internacie.
+                          </div>
+                          <div class="mdl-card__actions mdl-card--border">
+                            <a href="rules.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                              Czytaj
+                            </a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+                        <div class="news-card-square mdl-card mdl-shadow--2dp">
+                          <div onclick="location.href='contact.html';" class="mdl-card__title mdl-card--expand" style="background: url('./images/contact.jpg') center / cover">
+                            <h2 class="mdl-card__title-text">Kontakt</h2>
+                          </div>
+                          <div class="mdl-card__supporting-text">
+                            Wszystkie informacje dotyczące kontaktu, dla rodziców i dla uczniów.
+                          </div>
+                          <div class="mdl-card__actions mdl-card--border">
+                            <a href="contact.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                              Zobacz
+                            </a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--1-col-desktop mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
+                </div>
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--1-col-desktop mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
+                    <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+                        <div class="news-card-square mdl-card mdl-shadow--2dp">
+                          <div onclick="location.href='payment.html';" class="mdl-card__title mdl-card--expand" style="background: url('./images/payment.jpg') center / cover">
+                            <h2 class="mdl-card__title-text">Płatność</h2>
+                          </div>
+                          <div class="mdl-card__supporting-text">
+                            Informacje dotyczące płatności takie jak numer konta 
+                            czy kwota za bieżący miesiąc znajdziesz tutaj.
+                          </div>
+                          <div class="mdl-card__actions mdl-card--border">
+                            <a href="payment.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                              Czytaj
+                            </a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+                        <div class="news-card-square mdl-card mdl-shadow--2dp">
+                          <div onclick="location.href='mri.html';" class="mdl-card__title mdl-card--expand" style="background: url('./images/mri.jpg') center / cover">
+                            <h2 class="mdl-card__title-text">Młodzieżowa Rada Internatu</h2>
+                          </div>
+                          <div class="mdl-card__supporting-text">
+                            W naszym internacie aktywnie działa Młodzieżowa Rada Internatu, chesz wiedzieć więcej? Zajrzyj.
+                          </div>
+                          <div class="mdl-card__actions mdl-card--border">
+                            <a href="mri.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                              Czytaj
+                            </a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+                        <div class="news-card-square mdl-card mdl-shadow--2dp">
+                          <div onclick="location.href='archiwe.html';" class="mdl-card__title mdl-card--expand" style="background: url('./images/archiwe.jpg') center / cover">
+                            <h2 class="mdl-card__title-text">Archiwum</h2>
+                          </div>
+                          <div class="mdl-card__supporting-text">
+                            Ważne wydarzenia i zdjęcia z ubiegłych lat.
+                          </div>
+                          <div class="mdl-card__actions mdl-card--border">
+                            <a href="archiwe.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                              Zobacz
+                            </a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--1-col-desktop mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
+                </div>
+            </div>
+            <footer class="mdl-mega-footer">
+              <div class="mdl-mega-footer__bottom-section">
+                <div class="mdl-logo">Internat ZSE</div>
+                <ul class="mdl-mega-footer__link-list">
+                  <li><a href="#">Copyright &copy; 2016 Kacper Paczos</a></li>
+                  <li><a href="copyright.html">Zmieniaj i rozpowszechniaj - CC BY-SA 3.0</a></li>
+                </ul>
+              </div>
+            </footer>
+          </main>
+        </div>
+	</body>
+</html>
